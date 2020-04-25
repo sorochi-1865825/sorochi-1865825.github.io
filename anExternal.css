@@ -1,0 +1,45 @@
+/* Our CSS Document */
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+#kangarooImg {
+    height: 50px;
+    width: 50px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+#MoreRoos {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#memeText {
+    left: 50%;
+    border-style: dotted;
+    text-shadow: 3px 3px 3px blue;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    -webkit-transform: translate (-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#floatedImg {
+    float: left;
+    background: mediumturquoise
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#floatedImg {
+    width: 150px;
+}
